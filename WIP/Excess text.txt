@@ -1,0 +1,11 @@
+    next step is creating a format that can be used to study the effects of a disaster event. We decided
+to first test out making timelines of GDELT events following each disaster event. In the first version,
+these timelines start out with a single disaster event, then contain all GDELT (protest/humanitarian aid) events
+in the following year within 80 kilometers. This method yielded 5,349 individual timelines, with the following
+statistics: an average of 22.59 events per timeline, median number of 6.0 events per timeline, a maximum of 302
+events in a timeline, a minimum of 1 event in a timeline, and a standard deviation of 41.86 between timelines.
+By looking at the difference between the mean and the median, we can see that our timelines are skewed to the
+right, meaning we have a few very large timelines, which are most likely from events occurring in urban centers
+where there would be more GDELT events. The next step is to experiment with different attributes to see their
+effects on the timelines by creating variations of these timelines with different parameters, which is what the
+following subsections focus on.
